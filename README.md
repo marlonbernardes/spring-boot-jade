@@ -1,16 +1,30 @@
 ## Spring Boot autoconfig support for Jade4j
 
 ### Usage via Maven 
-#### Just add the following dependency to your `pom.xml`
+##### 1. Add the following snapshot dependency to your `pom.xml`
 ```xml
 <dependency>
-	<!-- Its not yet published to maven's central repository!
-	 This comment will be removed once it's there. -->
-  <groupId>com.github.instaweb</groupId>
-  <artifactId>spring-boot-jade</artifactId>
-  <version>0.9.0</version>
+	<groupId>com.github.instaweb</groupId>
+	<artifactId>spring-boot-jade</artifactId>
+	<version>0.9.0-SNAPSHOT</version>
 </dependency>
 ```
+##### 2. Be sure to add sonatype snapshots to your repository list:
+```xml
+<repositories>
+	<repository>
+		<id>sonatype-snapshots</id>
+		<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		<releases>
+			<enabled>false</enabled>
+		</releases>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+</repositories>
+```
+
 
 
 ### Example webapp
