@@ -13,7 +13,8 @@
 ```
 
 
-### Example webapp, with template (in `classpath:/templates/home.jade`):
+### Example webapp
+#### Template in `classpath:/templates/home.jade`
 
 ```jade
 doctype html
@@ -25,7 +26,7 @@ html
     span #{time}
 ```
 
-application code:
+#### Application.java
 
 ```java
 @SpringBootApplication
@@ -47,6 +48,6 @@ public static class Application {
 }
 ```
 
-Run the app and then load the HTML page at http://localhost:8080.
+**Thats it!**. Just run the app and then load the HTML page at http://localhost:8080.
 
 
