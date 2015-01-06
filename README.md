@@ -4,7 +4,8 @@
 #### Just add the following dependency to your `pom.xml`
 ```xml
 <dependency>
-	<!-- Its not yet published to maven's central repository! This comment will be removed once it's there. -->
+	<!-- Its not yet published to maven's central repository!
+	 This comment will be removed once it's there. -->
   <groupId>com.github.instaweb</groupId>
   <artifactId>spring-boot-jade</artifactId>
   <version>0.9.0</version>
