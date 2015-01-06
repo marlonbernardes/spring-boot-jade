@@ -1,4 +1,4 @@
-Spring Boot autoconfig support for Jade4j
+## Spring Boot autoconfig support for Jade4j
 
 Example webapp, with template (in `classpath:/templates/home.jade`):
 
