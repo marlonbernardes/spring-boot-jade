@@ -1,6 +1,18 @@
 ## Spring Boot autoconfig support for Jade4j
 
-Example webapp, with template (in `classpath:/templates/home.jade`):
+### Usage via Maven 
+#### Just add the following dependency to your `pom.xml`
+```xml
+<dependency>
+	<!-- Its not yet published to maven's central repository! This comment will be removed once it's there. -->
+  <groupId>com.github.instaweb</groupId>
+  <artifactId>spring-boot-jade</artifactId>
+  <version>0.9.0</version>
+</dependency>
+```
+
+
+### Example webapp, with template (in `classpath:/templates/home.jade`):
 
 ```jade
 doctype html
