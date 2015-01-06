@@ -9,7 +9,7 @@
 	<version>0.9.0-SNAPSHOT</version>
 </dependency>
 ```
-##### 2. Be sure to add sonatype snapshots to your repository list:
+##### 2. Be sure to add sonatype snapshots to your repository list (`pom.xml` or `~.m2/settings.xml`)
 ```xml
 <repositories>
 	<repository>
